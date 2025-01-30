@@ -1,4 +1,4 @@
-name: Deploy Notes site to GitHub Pages
+name: Deploy Notes to GitHub Pages
 
 on:
   # Runs on pushes targeting the `main` branch.
