@@ -1,0 +1,7 @@
+:root {
+    --dt-light-green: #f19d5a;
+    --dt-dark-green: #622b03;
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--dt-light-green), var(--dt-dark-green));
+}
+

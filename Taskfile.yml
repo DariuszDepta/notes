@@ -1,0 +1,31 @@
+version: '3'
+
+silent: true
+
+tasks:
+
+  clean:
+    desc: Clean built artefacts
+    cmds:
+      - cmd: rm -rf .vitepress/cache
+      - cmd: rm -rf .vitepress/dist
+      - cmd: rm -rf .deployment/app
+
+  serve:
+    desc: Start the documentation server locally
+    cmds:
+      - task: clean
+      - cmd: npm run docs:dev
+
+  build:
+    desc: Build the documentation
+    cmds:
+      - task: clean
+      - cmd: npm run docs:build
+
+  preview:
+    desc: Preview built documentation
+    cmds:
+      - task: clean
+      - cmd: npm run docs:build
+      - cmd: npm run docs:preview
