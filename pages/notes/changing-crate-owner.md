@@ -55,4 +55,3 @@ an owner of the crate [antex](https://crates.io/crates/antex), type:
 ```shell
 $ cargo owner --remove github:EngosSoftware:core antex
 ```
-
