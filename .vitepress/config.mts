@@ -13,7 +13,8 @@ export default defineConfig({
             {
                 text: 'Notes',
                 items: [
-                    {text: 'Changing crate owner', link: '/notes/changing-crate-owner'}
+                    {text: 'Changing crate owner', link: '/notes/changing-crate-owner'},
+                    {text: 'Static site generators', link: '/notes/static-site-generators'},
                 ]
             }
         ],
@@ -21,7 +22,8 @@ export default defineConfig({
             {
                 text: 'Notes',
                 items: [
-                    {text: 'Changing crate owner', link: '/notes/changing-crate-owner'}
+                    {text: 'Changing crate owner', link: '/notes/changing-crate-owner'},
+                    {text: 'Static site generators', link: '/notes/static-site-generators'},
                 ]
             }
         ],
