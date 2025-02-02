@@ -1,3 +1,3 @@
-# Notes @ FutureMe
+# Notes @FutureMe
 
-Notes I'll love in the future.
+Notes I’ll cherish in the future. Maybe you will as well...
