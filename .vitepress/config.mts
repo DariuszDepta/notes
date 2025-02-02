@@ -14,6 +14,7 @@ export default defineConfig({
                 text: 'Notes',
                 items: [
                     {text: 'Changing crate owner', link: '/notes/changing-crate-owner'},
+                    {text: 'Installing Go', link: '/notes/installing-go'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
                 ]
             }
@@ -23,6 +24,7 @@ export default defineConfig({
                 text: 'Notes',
                 items: [
                     {text: 'Changing crate owner', link: '/notes/changing-crate-owner'},
+                    {text: 'Installing Go', link: '/notes/installing-go'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
                 ]
             }
