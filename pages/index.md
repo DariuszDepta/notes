@@ -20,7 +20,7 @@ hero:
       text: Installing Go
       link: /notes/installing-go
     - theme: alt
-      text: Installing Node/Npm/Nvm
+      text: Installing Node/NPM/NVM
       link: /notes/installing-node-npm-nvm
     - theme: alt
       text: Renaming Rust tests
@@ -37,6 +37,9 @@ hero:
     - theme: alt
       text: Tweaking blockchains
       link: /notes/tweaking-blockchains      
+    - theme: alt
+      text: Updating NPM dependencies
+      link: /notes/updating-npm-dependencies      
 
 features:
   - title: Notes I’ll cherish in the future.

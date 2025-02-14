@@ -1,3 +1,5 @@
+# Updating NPM dependencies
+
 Checking outdated dependencies:
 
 ```

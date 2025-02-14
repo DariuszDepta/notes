@@ -16,12 +16,13 @@ export default defineConfig({
                     {text: 'Deleting multiple GitHub workflows', link: '/notes/deleting-multiple-github-workflows'},
                     {text: 'Installing Docker and Docker Compose', link: '/notes/installing-docker-and-docker-compose'},
                     {text: 'Installing Go', link: '/notes/installing-go'},
-                    {text: 'Installing Node/Npm/Nvm', link: '/notes/installing-node-npm-nvm'},
+                    {text: 'Installing Node/NPM/NVM', link: '/notes/installing-node-npm-nvm'},
                     {text: 'Renaming Rust tests', link: '/notes/renaming-rust-tests/renaming-rust-tests'},
                     {text: 'Rust formatter configuration', link: '/notes/rust-formatter-configuration'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
                     {text: 'Taskfile template for Rust projects', link: '/notes/taskfile-template-for-rust-projects'},
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
+                    {text: 'Updating NPM dependencies', link: '/notes/updating-npm-dependencies'},
                 ]
             }
         ],
@@ -33,12 +34,13 @@ export default defineConfig({
                     {text: 'Deleting multiple GitHub workflows', link: '/notes/deleting-multiple-github-workflows'},
                     {text: 'Installing Docker and Docker Compose', link: '/notes/installing-docker-and-docker-compose'},
                     {text: 'Installing Go', link: '/notes/installing-go'},
-                    {text: 'Installing Node/Npm/Nvm', link: '/notes/installing-node-npm-nvm'},
+                    {text: 'Installing Node/NPM/NVM', link: '/notes/installing-node-npm-nvm'},
                     {text: 'Renaming Rust tests', link: '/notes/renaming-rust-tests/renaming-rust-tests'},
                     {text: 'Rust formatter configuration', link: '/notes/rust-formatter-configuration'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
                     {text: 'Taskfile template for Rust projects', link: '/notes/taskfile-template-for-rust-projects'},
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
+                    {text: 'Updating NPM dependencies', link: '/notes/updating-npm-dependencies'},
                 ]
             }
         ],

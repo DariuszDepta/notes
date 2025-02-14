@@ -1,4 +1,4 @@
-# Node and npm
+# Installing Node/NPM/NVM
 
 Check installed version of **node**:
 
