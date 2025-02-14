@@ -1,4 +1,4 @@
-# Notes made while configuring VPS server based on CentOs 8
+# Configuring VPS on CentOs 8
 
 ## Change root password
 

@@ -13,6 +13,7 @@ export default defineConfig({
                 text: 'Notes',
                 items: [
                     {text: 'Changing crate owner', link: '/notes/changing-crate-owner'},
+                    {text: 'Configuring VPS on Centos 8', link: '/notes/configuring-vps-on-centos-8'},
                     {text: 'Deleting multiple GitHub workflows', link: '/notes/deleting-multiple-github-workflows'},
                     {text: 'Git useful commands', link: '/notes/git-commands'},
                     {text: 'Git server', link: '/notes/git-server'},
@@ -35,6 +36,7 @@ export default defineConfig({
                 text: 'Notes',
                 items: [
                     {text: 'Changing crate owner', link: '/notes/changing-crate-owner'},
+                    {text: 'Configuring VPS on Centos 8', link: '/notes/configuring-vps-on-centos-8'},
                     {text: 'Deleting multiple GitHub workflows', link: '/notes/deleting-multiple-github-workflows'},
                     {text: 'Git useful commands', link: '/notes/git-commands'},
                     {text: 'Git server', link: '/notes/git-server'},

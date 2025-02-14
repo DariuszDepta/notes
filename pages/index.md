@@ -11,6 +11,9 @@ hero:
       text: Changing crate owner
       link: /notes/changing-crate-owner
     - theme: alt
+      text: Configuring VPS on Centos 8
+      link: /notes/configuring-vps-on-centos-8
+    - theme: alt
       text: Deleting multiple GitHub workflows
       link: /notes/deleting-multiple-github-workflows
     - theme: alt
