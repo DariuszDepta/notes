@@ -21,10 +21,13 @@ hero:
       link: /notes/renaming-rust-tests/renaming-rust-tests            
     - theme: alt
       text: Rust formatter configuration
-      link: /notes/rust-formatter-configuration.md            
+      link: /notes/rust-formatter-configuration
     - theme: alt
       text: Static site generators
       link: /notes/static-site-generators
+    - theme: alt
+      text: Taskfile template for Rust projects
+      link: /notes/taskfile-template-for-rust-projects
     - theme: alt
       text: Tweaking blockchains
       link: /notes/tweaking-blockchains      

@@ -18,6 +18,7 @@ export default defineConfig({
                     {text: 'Renaming Rust tests', link: '/notes/renaming-rust-tests/renaming-rust-tests'},
                     {text: 'Rust formatter configuration', link: '/notes/rust-formatter-configuration.md'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
+                    {text: 'Taskfile template for Rust projects', link: '/notes/taskfile-template-for-rust-projects'},
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
                 ]
             }
@@ -32,6 +33,7 @@ export default defineConfig({
                     {text: 'Renaming Rust tests', link: '/notes/renaming-rust-tests/renaming-rust-tests'},
                     {text: 'Rust formatter configuration', link: '/notes/rust-formatter-configuration.md'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
+                    {text: 'Taskfile template for Rust projects', link: '/notes/taskfile-template-for-rust-projects'},
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
                 ]
             }
