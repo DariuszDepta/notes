@@ -15,8 +15,8 @@ $ git config --list
 Add user configuration
 
 ```
-$ git config --global user.name "Name Surname"
-$ git config --global user.email name@mail.com
+$ git config --global user.name "Your Name"
+$ git config --global user.email "name@mail.com"
 ```
 
 Set pull/rebase behaviour
