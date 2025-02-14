@@ -8,6 +8,9 @@ hero:
     alt: "Notes @FutureMe"
   actions:
     - theme: alt
+      text: Bash useful scripts
+      link: /notes/bash-useful-scripts
+    - theme: alt
       text: Changing crate owner
       link: /notes/changing-crate-owner
     - theme: alt
