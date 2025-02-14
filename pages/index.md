@@ -38,6 +38,9 @@ hero:
       text: Installing Node/NPM/NVM
       link: /notes/installing-node-npm-nvm
     - theme: alt
+      text: Nginx Docker registry
+      link: /notes/nginx-docker-registry            
+    - theme: alt
       text: Renaming Rust tests
       link: /notes/renaming-rust-tests/renaming-rust-tests            
     - theme: alt

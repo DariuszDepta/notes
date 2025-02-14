@@ -1,4 +1,8 @@
-```
+# Nginx Docker registry
+
+Nginx server configuration for Docker registry:
+
+```nginx
 server {
   listen 80;
   server_name ~^(www\.|)docker.domain_name$;
