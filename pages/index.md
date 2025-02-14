@@ -44,6 +44,9 @@ hero:
       text: Tweaking blockchains
       link: /notes/tweaking-blockchains      
     - theme: alt
+      text: Tweaking GitLab
+      link: /notes/tweaking-gitlab      
+    - theme: alt
       text: Updating NPM dependencies
       link: /notes/updating-npm-dependencies      
 

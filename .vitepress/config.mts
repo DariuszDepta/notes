@@ -24,6 +24,7 @@ export default defineConfig({
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
                     {text: 'Taskfile template for Rust projects', link: '/notes/taskfile-template-for-rust-projects'},
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
+                    {text: 'Tweaking GitLab', link: '/notes/tweaking-gitlab'},
                     {text: 'Updating NPM dependencies', link: '/notes/updating-npm-dependencies'},
                 ]
             }
@@ -44,6 +45,7 @@ export default defineConfig({
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
                     {text: 'Taskfile template for Rust projects', link: '/notes/taskfile-template-for-rust-projects'},
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
+                    {text: 'Tweaking GitLab', link: '/notes/tweaking-gitlab'},
                     {text: 'Updating NPM dependencies', link: '/notes/updating-npm-dependencies'},
                 ]
             }
