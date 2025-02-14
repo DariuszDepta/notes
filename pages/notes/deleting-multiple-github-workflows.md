@@ -1,21 +1,19 @@
-# Deleting multiple workflow runs in GitHub
-
-## Step 1
+# Deleting multiple GitHub workflows
 
 Install GitHub CLI:
+
 ```shell
 $ sudo dnf install gh
 ```
-## Step 2
 
 Login to GitHub account:
+
 ```shell
 $ gh auth login
 ```
 
-## Step 3
-
-Save the bash code to file, make it executable, replace placeholders with proper values and run.  
+Save the bash code to file, make it executable, replace placeholders with proper values and run:
+  
 ```shell
 #!/usr/bin/env bash
 

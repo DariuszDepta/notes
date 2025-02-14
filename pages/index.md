@@ -14,6 +14,9 @@ hero:
       text: Installing Docker and Docker Compose
       link: /notes/installing-docker-and-docker-compose      
     - theme: alt
+      text: Deleting multiple GitHub workflows
+      link: /notes/deleting-multiple-github-workflows
+    - theme: alt
       text: Installing Go
       link: /notes/installing-go
     - theme: alt
