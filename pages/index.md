@@ -41,6 +41,9 @@ hero:
       text: Installing Node/NPM/NVM
       link: /notes/installing-node-npm-nvm
     - theme: alt
+      text: Installing Taskfile
+      link: /notes/installing-taskfile
+    - theme: alt
       text: Nginx Docker registry
       link: /notes/nginx-docker-registry            
     - theme: alt
