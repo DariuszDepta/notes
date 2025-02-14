@@ -17,6 +17,12 @@ hero:
       text: Deleting multiple GitHub workflows
       link: /notes/deleting-multiple-github-workflows
     - theme: alt
+      text: Git useful commands
+      link: /notes/git-commands
+    - theme: alt
+      text: Git server
+      link: /notes/git-server
+    - theme: alt
       text: Installing Go
       link: /notes/installing-go
     - theme: alt

@@ -1,4 +1,4 @@
-# GIT useful commands
+# Git useful commands
 
 Add alias for displaying status
 

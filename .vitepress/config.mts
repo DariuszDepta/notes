@@ -14,6 +14,8 @@ export default defineConfig({
                 items: [
                     {text: 'Changing crate owner', link: '/notes/changing-crate-owner'},
                     {text: 'Deleting multiple GitHub workflows', link: '/notes/deleting-multiple-github-workflows'},
+                    {text: 'Git useful commands', link: '/notes/git-commands'},
+                    {text: 'Git server', link: '/notes/git-server'},
                     {text: 'Installing Docker and Docker Compose', link: '/notes/installing-docker-and-docker-compose'},
                     {text: 'Installing Go', link: '/notes/installing-go'},
                     {text: 'Installing Node/NPM/NVM', link: '/notes/installing-node-npm-nvm'},
@@ -32,6 +34,8 @@ export default defineConfig({
                 items: [
                     {text: 'Changing crate owner', link: '/notes/changing-crate-owner'},
                     {text: 'Deleting multiple GitHub workflows', link: '/notes/deleting-multiple-github-workflows'},
+                    {text: 'Git useful commands', link: '/notes/git-commands'},
+                    {text: 'Git server', link: '/notes/git-server'},
                     {text: 'Installing Docker and Docker Compose', link: '/notes/installing-docker-and-docker-compose'},
                     {text: 'Installing Go', link: '/notes/installing-go'},
                     {text: 'Installing Node/NPM/NVM', link: '/notes/installing-node-npm-nvm'},
