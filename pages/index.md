@@ -20,6 +20,9 @@ hero:
       text: Installing Go
       link: /notes/installing-go
     - theme: alt
+      text: Installing Node/Npm/Nvm
+      link: /notes/installing-node-npm-nvm
+    - theme: alt
       text: Renaming Rust tests
       link: /notes/renaming-rust-tests/renaming-rust-tests            
     - theme: alt
