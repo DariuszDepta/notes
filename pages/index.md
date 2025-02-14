@@ -22,6 +22,9 @@ hero:
     - theme: alt
       text: Static site generators
       link: /notes/static-site-generators
+    - theme: alt
+      text: Tweaking blockchains
+      link: /notes/tweaking-blockchains      
 
 features:
   - title: Notes I’ll cherish in the future.

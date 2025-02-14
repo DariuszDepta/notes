@@ -11,6 +11,6 @@ outline: 'deep'
 - Adduce: https://github.com/DeclanChidlow/Adduce
 - Doctave: https://github.com/Doctave/doctave
 
-# General set of SSGs
+## General set of SSGs
 
 - https://github.com/myles/awesome-static-generators

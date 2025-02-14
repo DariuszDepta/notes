@@ -17,6 +17,7 @@ export default defineConfig({
                     {text: 'Installing Go', link: '/notes/installing-go'},
                     {text: 'Renaming Rust tests', link: '/notes/renaming-rust-tests/renaming-rust-tests'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
+                    {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
                 ]
             }
         ],
@@ -29,6 +30,7 @@ export default defineConfig({
                     {text: 'Installing Go', link: '/notes/installing-go'},
                     {text: 'Renaming Rust tests', link: '/notes/renaming-rust-tests/renaming-rust-tests'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
+                    {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
                 ]
             }
         ],
