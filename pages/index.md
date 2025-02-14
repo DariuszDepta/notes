@@ -11,9 +11,6 @@ hero:
       text: Changing crate owner
       link: /notes/changing-crate-owner
     - theme: alt
-      text: Installing Docker and Docker Compose
-      link: /notes/installing-docker-and-docker-compose      
-    - theme: alt
       text: Deleting multiple GitHub workflows
       link: /notes/deleting-multiple-github-workflows
     - theme: alt
@@ -22,6 +19,12 @@ hero:
     - theme: alt
       text: Git server
       link: /notes/git-server
+    - theme: alt
+      text: Installing Docker and Docker Compose
+      link: /notes/installing-docker-and-docker-compose      
+    - theme: alt
+      text: Installing Bison on Linux
+      link: /notes/installing-bison-on-linux
     - theme: alt
       text: Installing Go
       link: /notes/installing-go
