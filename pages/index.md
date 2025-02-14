@@ -50,6 +50,9 @@ hero:
       text: Rust formatter configuration
       link: /notes/rust-formatter-configuration
     - theme: alt
+      text: Rust notes
+      link: /notes/rust-notes
+    - theme: alt
       text: Static site generators
       link: /notes/static-site-generators
     - theme: alt
