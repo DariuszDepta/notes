@@ -11,6 +11,9 @@ hero:
       text: Changing crate owner
       link: /notes/changing-crate-owner
     - theme: alt
+      text: Installing Docker and Docker Compose
+      link: /notes/installing-docker-and-docker-compose      
+    - theme: alt
       text: Installing Go
       link: /notes/installing-go
     - theme: alt
