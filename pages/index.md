@@ -20,6 +20,9 @@ hero:
       text: Deleting multiple GitHub workflows
       link: /notes/deleting-multiple-github-workflows
     - theme: alt
+      text: Fedora 35 solid desktop color
+      link: /notes/fedora-35-solid-desktop-color
+    - theme: alt
       text: Git useful commands
       link: /notes/git-commands
     - theme: alt
