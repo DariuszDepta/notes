@@ -12,10 +12,13 @@ hero:
       link: /notes/changing-crate-owner
     - theme: alt
       text: Installing Go
-      link: /notes/installing-go      
+      link: /notes/installing-go
+    - theme: alt
+      text: Renaming Rust tests
+      link: /notes/renaming-rust-tests/renaming-rust-tests            
     - theme: alt
       text: Static site generators
-      link: /notes/static-site-generators      
+      link: /notes/static-site-generators
 
 features:
   - title: Notes I’ll cherish in the future.
