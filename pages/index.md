@@ -24,7 +24,11 @@ features:
   - title: Notes I’ll cherish in the future.
     details: Maybe you will as well...
   - title: Tweaking DMN?
-    details: Try <a href="https://github.com/DecisionToolkit" target="_blank"><strong>Decision Toolkit</strong></a>...
+    link: https://github.com/DecisionToolkit
+    linkText: Try DecisionToolkit
+    linkTarget: "_blank"
   - title: Tweaking smart contracts?
-    details: Try <a href="https://github.com/DecisionContracts" target="_blank"><strong>Decision Contracts</strong></a>...
+    link: https://github.com/DecisionContracts
+    linkText: Try DecisionContracts
+    linkTarget: "_blank"
 ---
