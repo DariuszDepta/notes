@@ -2,7 +2,7 @@
 
 Rust formatting configuration is stored in file `rustfmt.toml`.
 
-[Configuring Rustfmt (v1.6.0)](https://rust-lang.github.io/rustfmt/?version=v1.6.0&search=)
+[Configuring Rustfmt (v1.8.0)](https://rust-lang.github.io/rustfmt/?version=v1.8.0&search=)
 
 ## Unstable but handy
 

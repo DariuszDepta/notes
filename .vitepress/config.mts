@@ -16,6 +16,7 @@ export default defineConfig({
                     {text: 'Installing Docker and Docker Compose', link: '/notes/installing-docker-and-docker-compose'},
                     {text: 'Installing Go', link: '/notes/installing-go'},
                     {text: 'Renaming Rust tests', link: '/notes/renaming-rust-tests/renaming-rust-tests'},
+                    {text: 'Rust formatter configuration', link: '/notes/rust-formatter-configuration.md'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
                 ]
@@ -29,6 +30,7 @@ export default defineConfig({
                     {text: 'Installing Docker and Docker Compose', link: '/notes/installing-docker-and-docker-compose'},
                     {text: 'Installing Go', link: '/notes/installing-go'},
                     {text: 'Renaming Rust tests', link: '/notes/renaming-rust-tests/renaming-rust-tests'},
+                    {text: 'Rust formatter configuration', link: '/notes/rust-formatter-configuration.md'},
                     {text: 'Static site generators', link: '/notes/static-site-generators'},
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
                 ]

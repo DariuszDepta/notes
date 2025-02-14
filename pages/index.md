@@ -20,6 +20,9 @@ hero:
       text: Renaming Rust tests
       link: /notes/renaming-rust-tests/renaming-rust-tests            
     - theme: alt
+      text: Rust formatter configuration
+      link: /notes/rust-formatter-configuration.md            
+    - theme: alt
       text: Static site generators
       link: /notes/static-site-generators
     - theme: alt
