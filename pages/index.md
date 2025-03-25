@@ -69,7 +69,10 @@ hero:
       link: /notes/tweaking-gitlab      
     - theme: alt
       text: Updating NPM dependencies
-      link: /notes/updating-npm-dependencies      
+      link: /notes/updating-npm-dependencies
+    - theme: alt
+      text: Using pass tool in Fedora
+      link: /notes/using-pass-tool      
 
 features:
   - title: Notes I’ll cherish in the future.

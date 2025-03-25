@@ -33,6 +33,7 @@ export default defineConfig({
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
                     {text: 'Tweaking GitLab', link: '/notes/tweaking-gitlab'},
                     {text: 'Updating NPM dependencies', link: '/notes/updating-npm-dependencies'},
+                    {text: 'Using pass tool in Fedora', link: '/notes/using-pass-tool'},
                 ]
             }
         ],
@@ -61,6 +62,7 @@ export default defineConfig({
                     {text: 'Tweaking blockchains', link: '/notes/tweaking-blockchains'},
                     {text: 'Tweaking GitLab', link: '/notes/tweaking-gitlab'},
                     {text: 'Updating NPM dependencies', link: '/notes/updating-npm-dependencies'},
+                    {text: 'Using pass tool in Fedora', link: '/notes/using-pass-tool'},
                 ]
             }
         ],
