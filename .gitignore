@@ -1,5 +1,4 @@
 node_modules
-.idea
+.idea/
 .vitepress/dist
 .vitepress/cache
-.deployment
