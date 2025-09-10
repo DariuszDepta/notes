@@ -81,8 +81,4 @@ features:
     link: https://github.com/DecisionToolkit
     linkText: Try DecisionToolkit
     linkTarget: "_blank"
-  - title: Tweaking smart contracts?
-    link: https://github.com/DecisionContracts
-    linkText: Try DecisionContracts
-    linkTarget: "_blank"
 ---
