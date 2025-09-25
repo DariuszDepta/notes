@@ -2,10 +2,10 @@
 layout: home
 
 hero:
-  name: "Notes @FutureMe"
+  name: "Notes (at) FutureMe"
   image:
     src: /NotesAtFutureMe.webp
-    alt: "Notes @FutureMe"
+    alt: "Notes (at) FutureMe"
   actions:
     - theme: alt
       text: Bash useful scripts
@@ -75,8 +75,7 @@ hero:
       link: /notes/using-pass-tool      
 
 features:
-  - title: Notes I’ll cherish in the future.
-    details: Maybe you will as well...
+  - title: Notes I’ll probably cherish in the future.
   - title: Tweaking DMN?
     link: https://github.com/DecisionToolkit
     linkText: Try DecisionToolkit
