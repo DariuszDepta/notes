@@ -72,7 +72,10 @@ hero:
       link: /notes/updating-npm-dependencies
     - theme: alt
       text: Using pass tool in Fedora
-      link: /notes/using-pass-tool      
+      link: /notes/using-pass-tool
+    - theme: alt
+      text: Aliases
+      link: /notes/aliases      
 
 features:
   - title: Notes I’ll probably cherish in the future.

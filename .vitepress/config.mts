@@ -34,6 +34,7 @@ export default defineConfig({
                     {text: 'Tweaking GitLab', link: '/notes/tweaking-gitlab'},
                     {text: 'Updating NPM dependencies', link: '/notes/updating-npm-dependencies'},
                     {text: 'Using pass tool in Fedora', link: '/notes/using-pass-tool'},
+                    {text: 'Aliases', link: '/notes/aliases'},
                 ]
             }
         ],
@@ -63,6 +64,7 @@ export default defineConfig({
                     {text: 'Tweaking GitLab', link: '/notes/tweaking-gitlab'},
                     {text: 'Updating NPM dependencies', link: '/notes/updating-npm-dependencies'},
                     {text: 'Using pass tool in Fedora', link: '/notes/using-pass-tool'},
+                    {text: 'Aliases', link: '/notes/aliases'},
                 ]
             }
         ],
