@@ -1,5 +1,7 @@
 # Installing Node/NPM/NVM
 
+## Linux
+
 Check installed version of **node**:
 
 ```shell
@@ -103,4 +105,44 @@ Publish package:
 
 ```shell
 $ npm publish
+```
+
+## macOS
+
+```shell
+brew install nvm
+```
+
+```shell
+nvm install 24
+```
+
+```shell
+nvm --version
+```
+
+Output:
+
+```text
+0.40.3
+```
+
+```shell
+node --version
+```
+
+Output:
+
+```text
+v24.12.0
+```
+
+```shell
+npm --version
+```
+
+Output:
+
+```text
+11.6.2
 ```

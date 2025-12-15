@@ -41,6 +41,9 @@ hero:
       text: Installing Node/NPM/NVM
       link: /notes/installing-node-npm-nvm
     - theme: alt
+      text: Installing OpenJDK
+      link: /notes/installing-open-jdk.md
+    - theme: alt
       text: Installing Taskfile
       link: /notes/installing-taskfile
     - theme: alt
