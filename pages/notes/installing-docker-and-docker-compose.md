@@ -58,6 +58,12 @@ The login credentials are stored in:
 /Users/user_name/.docker/config.json
 ```
 
+It is not a safe way to sore credentials, anyway, after modifying this file run:
+
+```shell
+colima restart
+```
+
 ## References
 
 - [Install Docker Engine on Fedora](https://docs.docker.com/engine/install/fedora/)
