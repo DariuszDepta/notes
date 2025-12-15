@@ -28,6 +28,12 @@ Set pull/rebase behavior:
 git config --global pull.rebase true
 ```
 
+To automatically push the current branch and set the remote as upstream, set:
+
+```shell
+git config --global push.autoSetupRemote true
+````
+
 Remove remote branches from local repository, that no more exist in remote repository:
 
 ```shell
