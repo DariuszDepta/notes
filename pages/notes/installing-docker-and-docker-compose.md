@@ -38,8 +38,10 @@ newgrp docker
 
 ## macOS
 
+### Install Docker
+
 ```shell
-brew install docker docker-desktop
+brew install docker
 ```
 
 ```shell
@@ -52,6 +54,18 @@ brew services start colima
 
 Restart.
 
+Check the installed Docker version:
+
+```shell
+docker --version
+```
+
+Output:
+
+```text
+Docker version 29.1.2, build 890dcca
+```
+
 The login credentials are stored in:
 
 ```text
@@ -62,6 +76,35 @@ It is not a safe way to sore credentials, anyway, after modifying this file run:
 
 ```shell
 colima restart
+```
+
+### Install Docker Compose
+
+```shell
+brew install docker-compose
+```
+
+Update `.docker/config.json` file, add the following entry:
+
+```text
+  "cliPluginsExtraDirs": [
+    "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+```
+
+```shell
+colima restart
+```
+
+Check the installed version:
+
+```shell
+docker-compose version
+```
+Output:
+
+```text
+Docker Compose version 5.0.0
 ```
 
 ## References
