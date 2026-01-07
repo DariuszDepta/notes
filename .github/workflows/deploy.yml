@@ -37,7 +37,7 @@ jobs:
           echo `pwd`/mdbook >> $GITHUB_PATH
 
       - name: Build notes
-        run: cd manual && mdbook build
+        run: mdbook build
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
