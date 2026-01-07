@@ -6,7 +6,7 @@
 
 Download:
 
-https://download.java.net/java/GA/jdk25.0.1/2fbf10d8c78e40bd87641c434705079d/8/GPL/openjdk-25.0.1_macos-aarch64_bin.tar.gz
+- <https://download.java.net/java/GA/jdk25.0.1/2fbf10d8c78e40bd87641c434705079d/8/GPL/openjdk-25.0.1_macos-aarch64_bin.tar.gz>
 
 ```shell
 tar -xzvf openjdk-25.0.1_macos-aarch64_bin.tar.gz

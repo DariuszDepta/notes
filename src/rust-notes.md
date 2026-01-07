@@ -3,7 +3,7 @@
 ## Installing Rust
 
 ```shell
-$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 Output:
@@ -61,7 +61,12 @@ Current installation options:
 Select option **1**:
 
 ```shell
-$ rustup show
+rustup show
+```
+
+Output:
+
+```text
 Default host: x86_64-unknown-linux-gnu
 rustup home:  /home/user_name/.rustup
 
@@ -70,9 +75,9 @@ rustc 1.58.1 (db9d1b20b 2022-01-20)
 ```
 
 ```shell
-$ rustup toolchain install nightly
-$ rustup default nightly
-$ rustup target install x86_64-unknown-linux-musl
+rustup toolchain install nightly
+rustup default nightly
+rustup target install x86_64-unknown-linux-musl
 ```
 
 ## Analyzing assembly code

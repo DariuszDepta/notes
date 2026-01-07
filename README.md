@@ -1,3 +1,3 @@
-# Notes (at) FutureMe
+# Notes @futureMe
 
-Notes I’ll probably cherish in the future.
+**Notes I’ll probably read in the future**

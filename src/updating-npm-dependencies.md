@@ -2,13 +2,13 @@
 
 Checking outdated dependencies:
 
-```
-$ npm outdated
+```shell
+npm outdated
 ```
 
-Example outout:
+Example output:
 
-```
+```text
 Package              Current  Wanted  Latest  Location                          Depended by
 copy-webpack-plugin   10.2.4  10.2.4  11.0.0  node_modules/copy-webpack-plugin  app
 css-loader             6.6.0   6.7.1   6.7.1  node_modules/css-loader           app
@@ -23,19 +23,19 @@ webpack-dev-server     4.7.4  4.11.1  4.11.1  node_modules/webpack-dev-server   
 
 For an advanced and customizable upgrading experience use `npm-check-updates`:
 
-```
-$ sudo npm install -g npm-check-updates
+```shell
+sudo npm install -g npm-check-updates
 ```
 
-Chceck dependencies:
+Check dependencies:
 
-```
-$ ncu
+```shell
+ncu
 ```
 
 Example output:
 
-```
+```text
 [====================] 15/15 100%
 
  copy-webpack-plugin  ^10.2.4  →  ^11.0.0
@@ -51,7 +51,7 @@ Example output:
 
 Upgrade and install new versions of dependencies:
 
-```
-$ ncu -u
-$ npm install
+```shell
+ncu -u
+npm install
 ```

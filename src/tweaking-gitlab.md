@@ -1,4 +1,4 @@
-# GitLab
+# Tweaking GitLab
 
 ```text
 drwx         .ssh        [700]
@@ -9,7 +9,7 @@ drwx         .ssh        [700]
 
 Content of the `config` file:
 
-```
+```text
 Host gitlab.com
   UpdateHostKeys no
 ```

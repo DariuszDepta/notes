@@ -16,5 +16,5 @@ unstable option: [imports_granularity](https://github.com/rust-lang/rustfmt/issu
 Can be used like this:
 
 ```shell
-$ cargo +nightly fmt
+cargo +nightly fmt
 ```

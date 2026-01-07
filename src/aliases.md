@@ -1,13 +1,13 @@
 # Aliases
 
-## Fedora Linux
+## Fedora
 
 ```shell
 cd /etc/profile.d
 touch my-aliases.sh
 ```
 
-Copy/paste to `my-aliases.sh`:
+Copy and paste to `my-aliases.sh`:
 
 ```text
 alias la='ls -lAh --color=auto'
@@ -25,7 +25,7 @@ cd ~
 touch .aliases
 ```
 
-Copy/paste to `~/.aliases`:
+Copy and paste to `.aliases`:
 
 ```text
 alias la='ls -lAh --color=auto'

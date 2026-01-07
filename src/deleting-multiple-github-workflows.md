@@ -3,18 +3,18 @@
 Install GitHub CLI:
 
 ```shell
-$ sudo dnf install gh
+sudo dnf install gh
 ```
 
 Login to GitHub account:
 
 ```shell
-$ gh auth login
+gh auth login
 ```
 
 Save the bash code to file, make it executable, replace placeholders with proper values and run:
   
-```shell
+```bash
 #!/usr/bin/env bash
 
 # number of most recent workflows to be preserved (not deleted)

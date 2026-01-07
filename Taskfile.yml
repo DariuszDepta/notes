@@ -7,25 +7,16 @@ tasks:
   clean:
     desc: Clean built artefacts
     cmds:
-      - cmd: rm -rf .vitepress/cache
-      - cmd: rm -rf .vitepress/dist
-      - cmd: rm -rf .deployment/app
+      - cmd: rm -rf book
 
   serve:
-    desc: Start the documentation server locally
+    desc: Start the notes server locally
     cmds:
       - task: clean
-      - cmd: npm run docs:dev
+      - cmd: mdbook serve || true
 
   build:
-    desc: Build the documentation
+    desc: Build the notes
     cmds:
       - task: clean
-      - cmd: npm run docs:build
-
-  preview:
-    desc: Preview built documentation
-    cmds:
-      - task: clean
-      - cmd: npm run docs:build
-      - cmd: npm run docs:preview
+      - cmd: mdbook build

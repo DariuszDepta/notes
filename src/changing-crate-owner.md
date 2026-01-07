@@ -1,14 +1,7 @@
----
-outline: 'deep'
----
-
-[crates.io]: https://crates.io
-
 # Changing crate owner
 
-::: tip
-You have to be logged-in to [crates.io] registry before executing any of the following commands.
-:::
+> [!TIP]
+> You have to be logged-in to [crates.io] registry before executing any of the following commands.
 
 ## Adding owner (user)
 
@@ -55,3 +48,5 @@ an owner of the crate [antex](https://crates.io/crates/antex), type:
 ```shell
 cargo owner --remove github:EngosSoftware:core antex
 ```
+
+[crates.io]: https://crates.io

@@ -1,12 +1,10 @@
-name: Deploy Notes to GitHub Pages
+name: Notes
 
 on:
-  # Runs on pushes targeting the `main` branch.
-  push:
-    branches: [main]
-
-  # Allows to run this workflow manually from the Actions tab.
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -21,45 +19,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-
-  # Build job
   build:
+    name: Build notes
     runs-on: ubuntu-latest
-    name: Build Notes
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+      - name: Checkout sources
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
 
-      - name: Setup Node
-        uses: actions/setup-node@v5
-        with:
-          node-version: 20
-          cache: npm
+      - name: Install latest mdbook
+        run: |
+          tag=$(curl 'https://api.github.com/repos/rust-lang/mdbook/releases/latest' | jq -r '.tag_name')
+          url="https://github.com/rust-lang/mdbook/releases/download/${tag}/mdbook-${tag}-x86_64-unknown-linux-gnu.tar.gz"
+          mkdir mdbook
+          curl -sSL $url | tar -xz --directory=./mdbook
+          echo `pwd`/mdbook >> $GITHUB_PATH
 
-      - name: Setup Pages
+      - name: Build notes
+        run: cd manual && mdbook build
+
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build with VitePress
-        run: npm run docs:build
-
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: .vitepress/dist
+          path: book
 
-  # Deployment job
   deploy:
+    name: Deploy book
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
-    name: Deploy Notes
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

@@ -1,23 +1,23 @@
-# Installing Node/NPM/NVM
+# Installing Node, npm, nvm
 
 ## Linux
 
 Check installed version of **node**:
 
 ```shell
-$ node -v
+node -v
 ```
 
 Check installed version of **npm**:
 
 ```shell
-$ npm -v
+npm -v
 ```
 
 Check installed version of **nvm**:
 
 ```shell
-$ nvm -v
+nvm -v
 ```
 
 ## NVM
@@ -25,16 +25,16 @@ $ nvm -v
 Install **nvm**:
 
 ```shell
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 or
 
 ```shell
-$ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
-See: https://github.com/nvm-sh/nvm
+See: <https://github.com/nvm-sh/nvm>
 
 Output:
 
@@ -68,19 +68,19 @@ export NVM_DIR="$HOME/.nvm"
 Install **node** version you need:
 
 ```shell
-$ nvm install v18.16.0
+nvm install v18.16.0
 ```
 
 Install the latest LTS release of Node.js:
 
 ```shell
-$ nvm install --lts
+nvm install --lts
 ```
 
 List all available versions to install:
 
 ```shell
-$ nvm ls-remote
+nvm ls-remote
 ```
 
 ## NPM
@@ -88,7 +88,7 @@ $ nvm ls-remote
 Install the latest version:
 
 ```shell
-$ npm install -g npm@latest
+npm install -g npm@latest
 ```
 
 ## [npmjs](https://www.npmjs.com)
@@ -96,7 +96,7 @@ $ npm install -g npm@latest
 To add user for logging in [npmjs](https://www.npmjs.com) 
 
 ```shell
-$ npm adduser
+npm adduser
 ```
 
 and follow the instructions in the browser.
@@ -104,7 +104,7 @@ and follow the instructions in the browser.
 Publish package:
 
 ```shell
-$ npm publish
+npm publish
 ```
 
 ## macOS

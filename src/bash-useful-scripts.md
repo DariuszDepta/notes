@@ -3,7 +3,7 @@
 ## Managing multiple Rust projects
 
 If there is a Rust project, containing multiple Rust subprojects and all of them are placed in a single parent directory
-and each project is a git repository, then the following script may be helpful to issue common commands for all of them
+and each project is a Git repository, then the following script may be helpful to issue common commands for all of them
 as a single command.
 
 This script does the following:

@@ -3,11 +3,11 @@
 ## Installation
 
 ```shell
-$ sudo dnf install pass
+sudo dnf install pass
 ```
 
 ```shell
-$ sudo dnf install gnupg2
+sudo dnf install gnupg2
 ```
 
 ## Setup
@@ -15,7 +15,7 @@ $ sudo dnf install gnupg2
 Check is any keys already exist:
 
 ```shell
-$ gpg --list-keys
+gpg --list-keys
 ```
 
 Output:
@@ -28,7 +28,7 @@ gpg: ~!/.gnupg/trustdb.gpg: trustdb created
 The `~/.gnugpg` directory should look like this:
 
 ```shell
-$ tree .gnugpg
+tree .gnugpg
 ``` 
 
 Output:
@@ -47,19 +47,19 @@ Output:
 If `public-keys.d` directory does not exist, then run:
 
 ```shell
-$ gpg -K
+gpg -K
 ```
 
 Generate new GPG key:
 
 ```shell
-$ gpg --generate-key
+gpg --generate-key
 ```
 
 Initialize your password store with generated GPG key.
 
 ```shell
-$ pass init GPG-ID
+pass init GPG-ID
 ```
 
 where `GPG-ID` is the email address of your generated GPG key. 
@@ -72,4 +72,4 @@ Password store initialized for GPG-ID
 
 ## References
 
-- https://fedoramagazine.org/using-pass-to-manage-your-passwords-on-fedora/
+- <https://fedoramagazine.org/using-pass-to-manage-your-passwords-on-fedora/>
