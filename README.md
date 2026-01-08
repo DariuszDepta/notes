@@ -1,3 +1,4 @@
 # Notes @ futureMe
 
-**Notes I’ll probably read in the future**
+> [!INFO]
+> Notes I’ll probably read in the future
