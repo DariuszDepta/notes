@@ -26,3 +26,4 @@
 - [Tweaking GitLab](./tweaking-gitlab.md)
 - [Updating npm dependencies](./updating-npm-dependencies.md)
 - [Using pass tool](./using-pass-tool.md)
+- [YubiKey](./yubi-key.md)
