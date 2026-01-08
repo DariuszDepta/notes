@@ -35,10 +35,6 @@ Output should be similar to this:
 YubiKey 5C NFC (5.7.1) [OTP+FIDO+CCID] Serial: 12345678
 ```
 
-```text
-YubiKey 5C NFC (5.7.1) [OTP+FIDO+CCID]
-```
-
 ### Set PIN
 
 ```shell
