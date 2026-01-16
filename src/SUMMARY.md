@@ -16,6 +16,7 @@
 - [Installing Node, npm, nvm](./installing-node-npm-nvm.md)
 - [Installing OpenJDK](./installing-open-jdk.md)
 - [Installing Taskfile](./installing-taskfile.md)
+- [Internet speed test](./internet-speed-test.md)
 - [Nginx Docker registry](./nginx-docker-registry.md)
 - [Renaming Rust tests or benchmarks](./renaming-rust-tests/renaming-rust-tests.md)
 - [Rust formatter configuration](./rust-formatter-configuration.md)
