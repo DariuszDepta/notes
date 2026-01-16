@@ -20,6 +20,7 @@
 - [Internet speed test](./internet-speed-test.md)
 - [Nginx Docker registry](./nginx-docker-registry.md)
 - [Perfect SSG](./perfect-ssg.md)
+- [Printing from terminal](./printing-from-terminal.md)
 - [Renaming Rust tests or benchmarks](./renaming-rust-tests/renaming-rust-tests.md)
 - [Rust formatter configuration](./rust-formatter-configuration.md)
 - [Rust notes](./rust-notes.md)
