@@ -18,6 +18,7 @@
 - [Installing Taskfile](./installing-taskfile.md)
 - [Internet speed test](./internet-speed-test.md)
 - [Nginx Docker registry](./nginx-docker-registry.md)
+- [Compiling performance (dmntk, dsntk)](./compiling-performance-dmntk-dsntk.md)
 - [Renaming Rust tests or benchmarks](./renaming-rust-tests/renaming-rust-tests.md)
 - [Rust formatter configuration](./rust-formatter-configuration.md)
 - [Rust notes](./rust-notes.md)
