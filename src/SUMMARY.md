@@ -5,6 +5,7 @@
 - [Aliases](./aliases.md)
 - [Bash useful scripts](./bash-useful-scripts.md)
 - [Changing crate owner](./changing-crate-owner.md)
+- [Changelog entries](./changelog-entries.md)
 - [Compiling performance (dmntk, dsntk)](./compiling-performance-dmntk-dsntk.md)
 - [Configuring VPS on CenOS 8](./configuring-vps-on-centos-8.md)
 - [Deleting multiple GitHub workflows](./deleting-multiple-github-workflows.md)
