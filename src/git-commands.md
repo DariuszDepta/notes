@@ -79,3 +79,60 @@ git reset --hard HEAD^
 ```shell
 git push origin -f
 ```
+
+## Working with remotes
+
+### View existing remotes
+
+```shell
+git remote
+```
+
+or with showing URLs:
+
+```shell
+git remote -v
+```
+
+### Add a remote
+
+```shell
+git remote add <name> <url>
+```
+
+e.g.:
+
+```shell
+git remote add private https://github.com/username/private_repo.git
+```
+
+### Remove a remote
+
+```shell
+git remote remove <name>
+```
+
+### Rename a remote
+
+```shell
+git remote rename <old-name> <new-name>
+```
+
+### Change remote URL
+
+```shell
+git remote set-url <name> <new-url>
+```
+
+### Example usage
+
+```shell
+git remote add private https://github.com/username/private_repo.git
+git push -u private main
+```
+
+> [!TIP]
+> `-u`, `--set-upstream`
+> 
+> For every branch that is up to date or successfully pushed, add upstream (tracking) reference,
+> used by argument-less git-pull and other commands.
