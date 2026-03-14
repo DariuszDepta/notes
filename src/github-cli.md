@@ -47,3 +47,40 @@ Issue        Bulk Memory Validation Error with wasmvm v3.0.0 and wasmd v0.61.0  
 Issue        Hosting website's server configuration                                                 3       CosmWasm/cosmwasm-website  PVTI_lADOAxqsQs4BKc_6zgihJ1g
 Issue        Update GitHub actions to the newest versions                                           2578    CosmWasm/cosmwasm          PVTI_lADOAxqsQs4BKc_6zgihU34
 ```
+
+### Listing project items with title and URL
+
+```shell
+gh project item-list 15 --owner CosmWasm --format json --jq '.items[].content | {title, url}'
+```
+
+```shell
+gh project item-list 15 --owner CosmWasm --format json --jq '.items[].content | {title, url, status}'
+```
+
+```shell
+gh project item-list 15 --owner CosmWasm --format json | jq '.items[] | select(.status == "Done") | .content'
+```
+
+```shell
+gh project item-list 15 --owner CosmWasm --format json --limit 500| jq '.items[] | select(.status=="Done") | {title: .content.title, url: .content.url, status: .status}'
+```
+
+## List labels for an issue/PR
+
+```shell
+gh issue view <ISSUE_URL> --json labels --jq '.labels[].name'
+```
+
+Example:
+
+```shell
+gh issue view https://github.com/CosmWasm/advisories/issues/86 --json labels --jq '.labels[].name'
+```
+
+Output:
+
+```text
+documentation
+g:security
+```
