@@ -63,7 +63,7 @@ gh project item-list 15 --owner CosmWasm --format json | jq '.items[] | select(.
 ```
 
 ```shell
-gh project item-list 15 --owner CosmWasm --format json --limit 500| jq '.items[] | select(.status=="Done") | {title: .content.title, url: .content.url, status: .status}'
+gh project item-list 15 --owner CosmWasm --format json --limit 500 | jq '.items[] | select(.status=="Done") | {title: .content.title, url: .content.url, status: .status}'
 ```
 
 ## List labels for an issue/PR
