@@ -12,6 +12,7 @@
 - [Fedora 35 solid desktop color](./fedora-35-solid-desktop-color.md)
 - [Git commands](./git-commands.md)
 - [Git server](./git-server.md)
+- [GitHub CLI](./github-cli.md)
 - [Installing Bison on Linux](./installing-bison-on-linux.md)
 - [Installing Docker and Docker Compose](./installing-docker-and-docker-compose.md)
 - [Installing Go](./installing-go.md)
