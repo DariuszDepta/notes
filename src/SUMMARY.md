@@ -10,6 +10,8 @@
 - [Configuring VPS on CenOS 8](./configuring-vps-on-centos-8.md)
 - [Deleting multiple GitHub workflows](./deleting-multiple-github-workflows.md)
 - [Discovering Cosmos](./discovering-cosmos.md)
+- [Discovering CosmWasm](./dicovering-cosmwasm/discovering-cosmwasm.md)
+  - [wasmd](./dicovering-cosmwasm/wasmd.md)
 - [Fedora 35 solid desktop color](./fedora-35-solid-desktop-color.md)
 - [Git commands](./git-commands.md)
 - [Git server](./git-server.md)
