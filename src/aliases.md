@@ -1,6 +1,6 @@
 # Aliases
 
-## Fedora
+## Fedora Linux
 
 ```shell
 cd /etc/profile.d
@@ -18,7 +18,7 @@ alias gitfap='git fetch --all --prune'
 
 Restart terminal.
 
-## macOs
+## macOS
 
 ```shell
 cd ~
