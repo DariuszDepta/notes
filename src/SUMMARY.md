@@ -7,6 +7,7 @@
 - [Changing crate owner](./changing-crate-owner.md)
 - [Changelog entries](./changelog-entries.md)
 - [Compiling performance (dmntk, dsntk)](./compiling-performance-dmntk-dsntk.md)
+- [Configuring VPS on AlmaLinux 10](./configuring-vps-on-almalinux-10.md)
 - [Configuring VPS on CenOS 8](./configuring-vps-on-centos-8.md)
 - [Crates](./crates.md)
 - [Deleting multiple GitHub workflows](./deleting-multiple-github-workflows.md)
