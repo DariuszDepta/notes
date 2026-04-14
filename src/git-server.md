@@ -151,6 +151,6 @@ Clone this repository on client machine:
 git clone git@<your_domain_or_address>:~/test.git
 ```
 
-## References:
+## References
 
 - [Git on the server](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
