@@ -136,6 +136,21 @@ $ sudo -e /etc/shells  # ...add the path to git-shell from last command.
 $ chsh git -s $(which git-shell)
 ```
 
+Create a test Git repository:
+
+```shell
+$ cd /home/git
+$ git config --global init.defaultBranch main
+$ git init --bare test.git
+$ chown -R git:git test.git
+```
+
+Clone this repository on client machine:
+
+```shell
+git clone git@<your_domain_or_address>:~/test.git
+```
+
 ## References:
 
 - [Git on the server](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
