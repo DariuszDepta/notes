@@ -1,4 +1,13 @@
 [book]
 title = "Notes @ futureMe"
-authors = ["Dariusz Depta"]
+authors = ["Dariusz Depta <depta@engos.de>"]
+description = "Notes @ futureMe"
 language = "en"
+src = "src"
+
+[rust]
+edition = "2024"
+
+[output.html.fold]
+enable = true
+level = 0
