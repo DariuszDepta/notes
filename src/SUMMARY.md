@@ -18,6 +18,7 @@
 - [Git commands](./git-commands.md)
 - [Git server](./git-server.md)
 - [GitHub CLI](./github-cli.md)
+- [GitHub actions](./github-actions.md)
 - [Installing Bison on Linux](./installing-bison-on-linux.md)
 - [Installing Docker and Docker Compose](./installing-docker-and-docker-compose.md)
 - [Installing Go](./installing-go.md)
