@@ -1,0 +1,15 @@
+.tasks
+
+  .clean
+    .desc Clean built artefacts
+    .cmd rm -rf book
+
+  .serve
+    .desc Start the notes server locally
+    .task clean
+    .cmd mdbook serve
+
+  .build
+    .desc Build the notes
+    .task clean
+    .cmd mdbook build

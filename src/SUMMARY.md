@@ -28,7 +28,7 @@
 - [Internet speed test](./internet-speed-test.md)
 - [Nginx Docker registry](./nginx-docker-registry.md)
 - [Nightly Rust](./nightly-rust.md)
-- [Opinionated crate maintenance](./opinionated-crate-maintenance.md)
+- [Opinionated crate maintenance recipes](opinionated-crates-maintenance-recipes.md)
 - [Perfect SSG](./perfect-ssg.md)
 - [Printing from terminal](./printing-from-terminal.md)
 - [Renaming Rust tests or benchmarks](./renaming-rust-tests/renaming-rust-tests.md)
