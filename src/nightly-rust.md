@@ -135,11 +135,11 @@ Below is a list of Rust nightly channels for each stable version.
 
 ## 1.97.0
 
-|       1.97.0       | Release date |  Rust version  |
-|:------------------:|:------------:|:--------------:|
-| nightly-2026-04-12 |  2026-04-11  | 1.97.0-nightly |
-|         ⋮          |      ⋮       |       ⋮        |
-|  **nightly-???**   |   **???**    |    **???**     |
+|       1.97.0       | Release date |    Rust version    |
+|:------------------:|:------------:|:------------------:|
+| nightly-2026-04-12 |  2026-04-11  |   1.97.0-nightly   |
+|         ⋮          |      ⋮       |         ⋮          |
+|  **nightly-???**   |   **???**    | **1.97.0-nightly** |
 
 ## Useful commands
 
