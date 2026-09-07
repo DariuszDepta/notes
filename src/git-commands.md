@@ -80,6 +80,15 @@ git reset --hard HEAD^
 git push origin -f
 ```
 
+## Working with tags
+
+### Moving an existing tag to the newest commit
+
+```shell
+git tag -f <tag_name> HEAD
+git push origin <tag_name> --force
+```
+
 ## Working with remotes
 
 ### View existing remotes
