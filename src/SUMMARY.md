@@ -26,6 +26,7 @@
 - [Installing OpenJDK](./installing-open-jdk.md)
 - [Installing Taskfile](./installing-taskfile.md)
 - [Internet speed test](./internet-speed-test.md)
+- [macOS keystrokes](./macos-keystrokes.md)
 - [Nginx Docker registry](./nginx-docker-registry.md)
 - [Nightly Rust](./nightly-rust.md)
 - [Opinionated crate maintenance recipes](opinionated-crates-maintenance-recipes.md)
