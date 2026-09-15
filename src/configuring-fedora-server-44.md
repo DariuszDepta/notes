@@ -25,3 +25,11 @@ sudo usermod -aG docker $USER
 docker --version
 docker compose version
 ```
+
+## Remove cockpit
+
+```shell
+systemctl status cockpit
+sudo dnf remove cockpit
+
+```
