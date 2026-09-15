@@ -4,6 +4,9 @@
 
 ```shell
 cd /etc/profile.d
+```
+
+```
 touch my-aliases.sh
 ```
 
