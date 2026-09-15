@@ -7,7 +7,7 @@ cd /etc/profile.d
 ```
 
 ```
-touch my-aliases.sh
+sudo touch my-aliases.sh
 ```
 
 Copy and paste to `my-aliases.sh`:
