@@ -18,6 +18,7 @@ alias gits='git status'
 alias gitcup='git add . && git commit -am "Updates." && git push'
 alias gitcu='git add . && git commit -am "Updates."'
 alias gitfap='git fetch --all --prune'
+alias dkc='docker compose'
 ```
 
 Restart terminal.
